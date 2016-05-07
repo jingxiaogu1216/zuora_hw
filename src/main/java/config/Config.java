@@ -8,7 +8,7 @@ public class Config {
     private static String ownerCollection = "owner";
     private static String requirementCollection = "requirement";
 
-    private static String clientUrl = "mongodb://jingxiao:jingxiao@ds015942.mlab.com:15942/zuora";
+    private static String clientUrl = "";
 
     public static String getDatabase() {
         return database;
