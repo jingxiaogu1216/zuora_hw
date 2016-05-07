@@ -30,6 +30,7 @@ public class AccessServlet extends HttpServlet{
             return;
         }
 
+        //Breadth-First-Search, use hashset to avoid duplication
         List<String> reqList = owner.getRequirement();
         Queue<String> queue = new LinkedList<>();
         HashSet<String> set = new HashSet<>();
