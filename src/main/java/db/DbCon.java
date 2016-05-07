@@ -23,8 +23,5 @@ public class DbCon{
         }
     }
     public static void main(String[] args) throws Exception{
-        while (true) {
-
-        }
     }
 }
