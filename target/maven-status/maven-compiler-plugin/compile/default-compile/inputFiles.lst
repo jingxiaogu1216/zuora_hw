@@ -1,0 +1,13 @@
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/util/Util.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/owner/addOwnerServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/RequirementUserHasAccessServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/owner/CreateOwnerServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/config/Config.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/requirement/CreateRequirementServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/requirement/DeleteRequirementServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/db/Owner.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/owner/DeleteOwnerServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/servlet/owner/DeleteOwnerFromRequirementServlet.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/db/DbCon.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/db/Requirement.java
+/Users/jingxiaogu/IdeaProjects/zuora_hw/src/main/java/util/HttpUtil.java

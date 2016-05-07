@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+        metadata-complete="false"
+        version="3.1">
+    <servlet>
+        <servlet-name>createRequirement</servlet-name>
+        <servlet-class>servlet.requirement.CreateRequirementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createRequirement</servlet-name>
+        <url-pattern>/requirement/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteRequirement</servlet-name>
+        <servlet-class>servlet.requirement.DeleteRequirementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteRequirement</servlet-name>
+        <url-pattern>/requirement/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addOwner</servlet-name>
+        <servlet-class>servlet.owner.addOwnerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addOwner</servlet-name>
+        <url-pattern>/owner/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteOwnerFromRequirement</servlet-name>
+        <servlet-class>servlet.owner.DeleteOwnerFromRequirementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteOwnerFromRequirement</servlet-name>
+        <url-pattern>/owner/requirement/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createOwner</servlet-name>
+        <servlet-class>servlet.owner.CreateOwnerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createOwner</servlet-name>
+        <url-pattern>/owner/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteOwner</servlet-name>
+        <servlet-class>servlet.owner.DeleteOwnerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteOwner</servlet-name>
+        <url-pattern>/owner/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>access</servlet-name>
+        <servlet-class>servlet.owner.AccessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>access</servlet-name>
+        <url-pattern>/access</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allRequirement</servlet-name>
+        <servlet-class>servlet.requirement.AllRequirementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allRequirement</servlet-name>
+        <url-pattern>/requirement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allOwner</servlet-name>
+        <servlet-class>servlet.owner.AllOwnerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allOwner</servlet-name>
+        <url-pattern>/owner</url-pattern>
+    </servlet-mapping>
+
+</web-app>
